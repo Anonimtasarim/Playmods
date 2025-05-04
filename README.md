@@ -23,8 +23,11 @@ Bu benim GitHub profilim. Burada yazılım projelerimi ve katkılarımı paylaş
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anonimtasarim&layout=compact&theme=gruvbox" alt="Top Languages" />
 </div>
 
+---
 
+### 🐍 GitHub Aktivite Yılanı:
 
+```md
+![snake gif](https://github.com/Anonimtasarim/Anonimtasarim/blob/output/github-contribution-grid-snake.svg)
 
-![snake gif](https://github.com/ornekKullaniciAdi/ornekKullaniciAdi/blob/output/github-contribution-grid-snake.svg)
 
