@@ -1,26 +1,75 @@
-# Hoş Geldiniz!
+# PlayMods: Terminal-Style Assistant
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub!;I'm+a+Developer.;I+love+coding+%F0%9F%92%BB" alt="Typing SVG" />
-</div>
+PlayMods is an assistant system that operates through a terminal-like interface. Each "mod" performs a specific function, and the system is designed in a modular structure.
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anonimtasarim&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-</div>
+## 🚪 Main Mod: `playmos`
+
+* The central module to which all other mods are connected.  
+* Can have short conversations with the user.  
+* Displays a personalized greeting message based on the current time and date.
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anonimtasarim&theme=radical" alt="GitHub Streak" />
-</div>
+## 🕒 Timer
+
+* Helps you track time with countdowns in minutes/seconds.  
+* Useful for focus or productivity sessions.
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anonimtasarim&layout=compact&theme=gruvbox" alt="Top Languages" />
-</div>
+## ➗ Calculator
+
+* A mini calculator that supports basic arithmetic and more.
+
+---
+
+## ✖️ Multiplication Machine
+
+* Allows you to perform multiple multiplication operations at once.
+
+---
+
+## 🌐 Web Mode
+
+* Opens a specified URL and redirects you to your default web browser.
+
+---
+
+## ✊ 🖐 ✌ Rock Paper Scissors
+
+* A small game to kill time when you're bored.
+
+---
+
+## 🌤 Weather
+
+* Fetches and displays the current weather conditions via the internet.
+
+---
+
+## 💱 Currency Rates
+
+* Lets you check the current USD and EUR exchange rates.  
+* Data can be updated via API or manually (detailed info coming soon).
+
+---
+
+## 🗓 Reminder
+
+* Reminds you of important dates or special days.  
+* Reminders are date-based.
+
+---
+
+## 🧩 More Mods Coming Soon!
+
+PlayMods is continuously evolving. New mods are on the way!
+
+---
+
+> 📌 Note: Each mod is designed to function independently, but they can be accessed centrally through the `playmos` main mod.
 
 
 
