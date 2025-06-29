@@ -19,7 +19,7 @@ def get_exchange_rates(currency):
     except Exception as e:
         print("Hata:", e)
 
-# Sürekli döngü
+
 while True:
     print("güncel kur")
     print("\n🔄 Dolar veya Euro kuru görmek için 'dolar' veya 'euro' yazın.")
@@ -33,7 +33,7 @@ while True:
         get_exchange_rates("euro")
     elif choice == "q":
         print("🚪 Çıkılıyor...")
-        break  # Çıkış komutu
+        break 
     else:
         print("⚠ Lütfen 'dolar', 'euro' veya 'çıkış' yazın.")
 
