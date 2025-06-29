@@ -69,10 +69,7 @@ def gün():
 
 
 
-# Müzik
-cem_karacalist = [
-    "https://open.spotify.com/intl-tr/album/2muOhSoHV12zRIQ3JRtqJr"
-]
+
 # sohbet 
 selam_cevap = [
       "selam nasılsın",
@@ -156,14 +153,35 @@ bende_iyim_sagol = [
 ]
 
 
-
+print("""
+ _______   __         ______   __      __  
+/       \ /  |       /      \ /  \    /  | 
+$$$$$$$  |$$ |      /$$$$$$  |$$  \  /$$/  
+$$ |__$$ |$$ |      $$ |__$$ | $$  \/$$/   
+$$    $$/ $$ |      $$    $$ |  $$  $$/    
+$$$$$$$/  $$ |      $$$$$$$$ |   $$$$/     
+$$ |      $$ |_____ $$ |  $$ |    $$ |     
+$$ |      $$       |$$ |  $$ |    $$ |     
+$$/       $$$$$$$$/ $$/   $$/     $$/      
+                                           
+                                           
+                                           
+ __       __   ______   _______    ______  
+/  \     /  | /      \ /       \  /      \ 
+$$  \   /$$ |/$$$$$$  |$$$$$$$  |/$$$$$$  |
+$$$  \ /$$$ |$$ |  $$ |$$ |  $$ |$$ \__$$/ 
+$$$$  /$$$$ |$$ |  $$ |$$ |  $$ |$$      \ 
+$$ $$ $$/$$ |$$ |  $$ |$$ |  $$ | $$$$$$  |
+$$ |$$$/ $$ |$$ \__$$ |$$ |__$$ |/  \__$$ |
+$$ | $/  $$ |$$    $$/ $$    $$/ $$    $$/ 
+$$/      $$/  $$$$$$/  $$$$$$$/   $$$$$$/  
+""")
 
 print(f"{gün()}, {açılış()}") 
 print("PlayMods'a Hoşgeldin!")
 while True:
     mesaj = input("efendim: ").lower()
-   
-    elif "selamın aleyküm" in mesaj: #sohbet
+    if  "selamın aleyküm" in mesaj: #sohbet
         print("ve aleyküm selam")
     elif "yolun nereyedir"in mesaj:
         print("kısıl elmaya")
@@ -228,6 +246,10 @@ while True:
         python_dosya = "C:/python/zamanlayıcı.py"
         subprocess.run(["python",python_dosya]) 
         print("zamanlayıcı kapatılıyor...") 
+    elif"soly"in mesaj:
+        python_dosya="C:/python/makine deneme.py"
+        subprocess.run(["python",python_dosya])
+        print("soly kapatılıyor...")
     elif "oyun"in mesaj :
         python_dosya = "C:/python/taş kagıt makasa.py"
         subprocess.run(["python",python_dosya])
@@ -242,4 +264,3 @@ while True:
         cevap = random.choice(elese_cevap)
         print(cevap)
 
-       
