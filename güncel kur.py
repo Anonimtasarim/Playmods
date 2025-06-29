@@ -23,7 +23,7 @@ def get_exchange_rates(currency):
 while True:
     print("güncel kur")
     print("\n🔄 Dolar veya Euro kuru görmek için 'dolar' veya 'euro' yazın.")
-    print("Çıkmak için 'çıkış' yazın.")
+    print("Çıkmak için 'q' yazın.")
 
     choice = input("\nSeçiminizi yapın: ").lower()
 
@@ -31,14 +31,11 @@ while True:
         get_exchange_rates("dolar")
     elif choice == "euro":
         get_exchange_rates("euro")
-    elif choice == "çıkış":
+    elif choice == "q":
         print("🚪 Çıkılıyor...")
         break  # Çıkış komutu
     else:
         print("⚠ Lütfen 'dolar', 'euro' veya 'çıkış' yazın.")
-    
-    input("\n🔄 Devam etmek için Enter'a basın...")
-
 
 
 
