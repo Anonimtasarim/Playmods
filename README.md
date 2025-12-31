@@ -64,7 +64,6 @@ PlayMods is an assistant system that operates through a terminal-like interface.
 ---
 
 ## 🧩 More Mods Coming Soon!
-*son
 
 PlayMods is continuously evolving. New mods are on the way!
 
