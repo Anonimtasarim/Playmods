@@ -1,4 +1,4 @@
-# PlayMods: Terminal-Style Assistant
+# PlayMods: Terminal-Style Assistanı
 
 PlayMods is an assistant system that operates through a terminal-like interface. Each "mod" performs a specific function, and the system is designed in a modular structure.
 
